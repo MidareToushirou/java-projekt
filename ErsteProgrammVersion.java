@@ -90,19 +90,7 @@ public class ErsteProgrammVersion{
         Button1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JFrame spielWindow = new JFrame("CenTurY");
-                JPanel spielPanel = new JPanel();
-
-                spielWindow.setVisible(true);
-                spielWindow.setResizable(false);
-                spielWindow.setSize(1250,750);
-                spielWindow.setLayout(null);
-                spielWindow.setLocationRelativeTo(null);
-
-                ImageIcon icon2 = new ImageIcon("/Bilder/AvatarElemente.png");
-                spielWindow.setIconImage(icon2.getImage());
-
-                spielWindow.add(spielPanel);
+                Launcher();
             }
         });
 
